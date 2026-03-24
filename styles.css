@@ -402,3 +402,163 @@ html, body {
     min-width: auto;
   }
 }
+
+/* =========================
+   HOMEPAGE POLISH
+========================= */
+
+body {
+  letter-spacing: -0.01em;
+}
+
+.hero {
+  padding: 44px 0 56px;
+}
+
+.hero-copy {
+  display: grid;
+  gap: 18px;
+}
+
+.hero h1 {
+  font-size: 58px;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+  max-width: 10ch;
+}
+
+.hero-text {
+  max-width: 22em;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #bdbdbd;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 14px 22px;
+  font-size: 16px;
+  margin-right: 0;
+}
+
+.btn-gold {
+  font-weight: 600;
+}
+
+.panel-card-large {
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.panel-label {
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.panel-card p,
+.feature-card p,
+.cta-box p,
+.footer-copy {
+  line-height: 1.75;
+}
+
+.section-heading h2,
+.editorial-section h2,
+.cta-box h2 {
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+}
+
+.featured-section,
+.editorial-section,
+.cta-section {
+  padding: 56px 0;
+}
+
+.feature-card,
+.product-card,
+.cta-box {
+  border-radius: 10px;
+}
+
+.feature-card h3 {
+  font-size: 30px;
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #c2c2c2;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.site-footer {
+  padding: 56px 0;
+}
+
+.footer-links a {
+  margin-bottom: 10px;
+}
+
+/* =========================
+   RESPONSIVE REFINEMENTS
+========================= */
+
+@media (max-width: 699px) {
+  .hero h1 {
+    font-size: 34px;
+    max-width: none;
+  }
+
+  .hero-text {
+    font-size: 17px;
+    max-width: none;
+  }
+
+  .section-heading h2,
+  .editorial-section h2,
+  .cta-box h2 {
+    font-size: 32px;
+  }
+
+  .feature-card h3,
+  .product-card h3 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero {
+    padding: 78px 0 84px;
+  }
+
+  .hero-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .panel-card-large {
+    min-height: 100%;
+  }
+}
