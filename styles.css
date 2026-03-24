@@ -562,3 +562,46 @@ body {
     min-height: 100%;
   }
 }
+
+/* =========================
+   PRODUCT PAGE POLISH
+========================= */
+
+.product-card {
+  padding: 28px;
+}
+
+.product-card h3 {
+  font-size: 34px;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 4px;
+}
+
+.product-card p {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #c5c5c5;
+}
+
+.product-points {
+  margin-top: 2px;
+}
+
+.product-points li {
+  line-height: 1.7;
+}
+
+@media (max-width: 699px) {
+  .product-card {
+    padding: 24px;
+  }
+
+  .product-card h3 {
+    font-size: 28px;
+  }
+
+  .product-card p {
+    font-size: 17px;
+  }
+}
